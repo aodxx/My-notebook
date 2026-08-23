@@ -63,9 +63,9 @@ tags: [notebook, github, personal-knowledge]
 
 ## ลิงก์และไฟล์ที่เกี่ยวข้อง
 
-- [ตัวอย่างบันทึกประจำวัน](../../../01-daily/2026/08/EXAMPLE-2026-08-23.md)
-- [ตัวอย่างไอเดีย AI จัดบันทึก](../../../03-ideas/EXAMPLE-ai-note-summary.md)
-- [แม่แบบโปรเจกต์](../../../templates/project.md)
+- [ตัวอย่างบันทึกประจำวัน](../../01-daily/2026/08/EXAMPLE-2026-08-23.md)
+- [ตัวอย่างไอเดีย AI จัดบันทึก](../../03-ideas/EXAMPLE-ai-note-summary.md)
+- [แม่แบบโปรเจกต์](../../templates/project.md)
 
 ## บันทึกความคืบหน้า
 
