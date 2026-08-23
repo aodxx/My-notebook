@@ -1,0 +1,31 @@
+name: จดด่วน
+description: บันทึกเรื่องที่นึกขึ้นได้จากมือถือหรือหน้าเว็บ แล้วค่อยนำไปจัดหมวดภายหลัง
+title: "[จดด่วน] "
+body:
+  - type: textarea
+    id: note
+    attributes:
+      label: สิ่งที่ต้องการบันทึก
+      description: เขียนสั้นหรือยาวก็ได้ เน้นจดให้ทันก่อน
+      placeholder: วันนี้ฉันคิดได้ว่า...
+    validations:
+      required: true
+  - type: input
+    id: tags
+    attributes:
+      label: คำค้นหรือแท็ก
+      description: คั่นหลายคำด้วยเครื่องหมายจุลภาค
+      placeholder: สวนปาล์ม, Google Apps Script, ไอเดีย
+  - type: dropdown
+    id: destination
+    attributes:
+      label: หมวดที่น่าจะเกี่ยวข้อง
+      options:
+        - ยังไม่แน่ใจ — Inbox
+        - บันทึกประจำวัน
+        - ความรู้และเรื่องทั่วไป
+        - ไอเดีย
+        - โปรเจกต์
+        - แหล่งข้อมูล
+    validations:
+      required: true
